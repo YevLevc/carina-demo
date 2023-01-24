@@ -18,11 +18,11 @@ package com.qaprosoft.carina.demo.gui.pages;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
-public class RSSpage extends AbstractPage {
+public class RSSFeedPage extends AbstractPage {
 
-    public RSSpage(WebDriver driver) {
+    public RSSFeedPage(WebDriver driver) {
         super(driver);
-        setPageURL("/glossary.php");
+        setPageURL("/rss-news-reviews.php3");
     }
     
 }

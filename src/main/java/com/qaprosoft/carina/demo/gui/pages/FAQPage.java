@@ -18,11 +18,11 @@ package com.qaprosoft.carina.demo.gui.pages;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
-public class GlossaryPage extends AbstractPage {
+public class FAQPage extends AbstractPage {
 
-    public GlossaryPage(WebDriver driver) {
+    public FAQPage(WebDriver driver) {
         super(driver);
-        setPageURL("/glossary.php");
+        setPageURL("/faq.php3");
     }
     
 }

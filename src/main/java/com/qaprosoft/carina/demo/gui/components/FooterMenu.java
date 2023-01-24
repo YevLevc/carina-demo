@@ -35,6 +35,9 @@ public class FooterMenu extends AbstractUIObject {
     @FindBy(linkText = "News")
     private ExtendedWebElement newsLink;
 
+    @FindBy(xpath = "//div[@id='footer']//a[contains(text(),'%s')]")
+    private ExtendedWebElement footerLink;
+
     public FooterMenu(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
     }
@@ -52,5 +55,9 @@ public class FooterMenu extends AbstractUIObject {
     public NewsPage openNewsPage() {
         newsLink.click();
         return new NewsPage(driver);
+    }
+
+    public ExtendedWebElement getFooterLink(String name) {
+        return footerLink.format(name);
     }
 }

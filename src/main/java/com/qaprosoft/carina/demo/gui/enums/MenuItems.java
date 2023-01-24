@@ -1,4 +1,4 @@
-package com.qaprosoft.carina.demo.gui.components.enums;
+package com.qaprosoft.carina.demo.gui.enums;
 
 public enum MenuItems {
     HOME(1, "Home"), NEWS(2, "News"), REVIEWS(3, "Reviews"), VIDEOS(4, "Videos"),

@@ -18,11 +18,11 @@ package com.qaprosoft.carina.demo.gui.pages.external;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
-public class MerchSite extends AbstractPage {
+public class YoutubePage extends AbstractPage {
 
-    public MerchSite(WebDriver driver) {
+    public YoutubePage(WebDriver driver) {
         super(driver);
-        setPageAbsoluteURL("https://merch.gsmarena.com/");
+        setPageAbsoluteURL("https://www.youtube.com/channel/UCbLq9tsbo8peV22VxbDAfXA");
     }
     
 }

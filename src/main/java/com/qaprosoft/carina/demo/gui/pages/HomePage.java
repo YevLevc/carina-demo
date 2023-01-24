@@ -20,6 +20,7 @@ import java.util.List;
 
 import com.qaprosoft.carina.core.foundation.utils.Configuration;
 import com.qaprosoft.carina.core.foundation.utils.R;
+import com.qaprosoft.carina.demo.gui.components.TopBar;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.slf4j.Logger;
@@ -33,6 +34,9 @@ import com.qaprosoft.carina.demo.gui.components.WeValuePrivacyAd;
 
 public class HomePage extends AbstractPage {
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
+
+    @FindBy(className = "top-bar")
+    private TopBar topBar;
 
     @FindBy(id = "footmenu")
     private FooterMenu footerMenu;
@@ -53,6 +57,10 @@ public class HomePage extends AbstractPage {
         return footerMenu;
     }
 
+    public TopBar getTopBar() {
+        return topBar;
+    }
+
     public BrandModelsPage selectBrand(String brand) {
         LOGGER.info("selecting '" + brand + "' brand...");
         for (ExtendedWebElement brandLink : brandLinks) {
@@ -65,8 +73,8 @@ public class HomePage extends AbstractPage {
         }
         throw new RuntimeException("Unable to open brand: " + brand);
     }
-    
+
     public WeValuePrivacyAd getWeValuePrivacyAd() {
-    	return new WeValuePrivacyAd(driver);
+        return new WeValuePrivacyAd(driver);
     }
 }

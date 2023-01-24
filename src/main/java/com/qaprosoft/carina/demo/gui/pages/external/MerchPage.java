@@ -18,9 +18,9 @@ package com.qaprosoft.carina.demo.gui.pages.external;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
-public class MerchSite extends AbstractPage {
+public class MerchPage extends AbstractPage {
 
-    public MerchSite(WebDriver driver) {
+    public MerchPage(WebDriver driver) {
         super(driver);
         setPageAbsoluteURL("https://merch.gsmarena.com/");
     }

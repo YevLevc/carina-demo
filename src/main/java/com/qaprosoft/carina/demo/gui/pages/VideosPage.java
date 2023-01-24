@@ -15,19 +15,14 @@
  */
 package com.qaprosoft.carina.demo.gui.pages;
 
-import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractPage;
-import com.qaprosoft.carina.demo.gui.components.NewsItem;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.FindBy;
 
-import java.util.List;
+public class VideosPage extends AbstractPage {
 
-public class ReviewsPage extends AbstractPage {
-
-    public ReviewsPage(WebDriver driver) {
+    public VideosPage(WebDriver driver) {
         super(driver);
-        setPageURL("/reviews.php3");
+        setPageURL("/videos.php3");
     }
     
 }

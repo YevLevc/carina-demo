@@ -18,11 +18,11 @@ package com.qaprosoft.carina.demo.gui.pages;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
-public class FAQPage extends AbstractPage {
+public class GSMArenaPage extends AbstractPage {
 
-    public FAQPage(WebDriver driver) {
+    public GSMArenaPage(WebDriver driver) {
         super(driver);
-        setPageURL("/faq.php");
+        setPageURL("/team.php3");
     }
     
 }

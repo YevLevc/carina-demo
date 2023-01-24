@@ -40,8 +40,8 @@ public class CompareModelsPage extends AbstractPage {
     public CompareModelsPage(WebDriver driver) {
         super(driver);
         setUiLoadedMarker(compareMenu);
-        setPageAbsoluteURL(comparePageUrl);
-        //setPageURL("/compare.php3");
+//        setPageAbsoluteURL(comparePageUrl);
+        setPageURL("/compare.php3");
     }
 
     public List<ModelSpecs> compareModels(String... models) {

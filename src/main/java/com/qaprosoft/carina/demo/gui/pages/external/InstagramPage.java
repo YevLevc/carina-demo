@@ -18,11 +18,11 @@ package com.qaprosoft.carina.demo.gui.pages.external;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
-public class TwitterPage extends AbstractPage {
+public class InstagramPage extends AbstractPage {
 
-    public TwitterPage(WebDriver driver) {
+    public InstagramPage(WebDriver driver) {
         super(driver);
-        setPageAbsoluteURL("https://twitter.com/gsmarena_com");
+        setPageAbsoluteURL("https://www.instagram.com/gsmarenateam/");
     }
     
 }

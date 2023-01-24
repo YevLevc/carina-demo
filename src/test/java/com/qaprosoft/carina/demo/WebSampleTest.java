@@ -17,6 +17,7 @@ package com.qaprosoft.carina.demo;
 
 import java.util.List;
 
+import com.qaprosoft.carina.demo.gui.pages.*;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.testng.Assert;
@@ -32,11 +33,6 @@ import com.qaprosoft.carina.demo.gui.components.FooterMenu;
 import com.qaprosoft.carina.demo.gui.components.NewsItem;
 import com.qaprosoft.carina.demo.gui.components.compare.ModelSpecs;
 import com.qaprosoft.carina.demo.gui.components.compare.ModelSpecs.SpecType;
-import com.qaprosoft.carina.demo.gui.pages.BrandModelsPage;
-import com.qaprosoft.carina.demo.gui.pages.CompareModelsPage;
-import com.qaprosoft.carina.demo.gui.pages.HomePage;
-import com.qaprosoft.carina.demo.gui.pages.ModelInfoPage;
-import com.qaprosoft.carina.demo.gui.pages.NewsPage;
 
 /**
  * This sample shows how create Web test.

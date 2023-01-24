@@ -17,7 +17,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class WebMainMenuClickTest implements IAbstractTest {
+public class WebMenuClickTest implements IAbstractTest {
     @Test(description = "Test checks main menu buttons")
     @MethodOwner(owner = "Eugene")
     @TestLabel(name = "feature", value = {"web"})

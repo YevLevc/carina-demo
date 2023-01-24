@@ -18,9 +18,9 @@ package com.qaprosoft.carina.demo.gui.pages.external;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
-public class YoutubePage extends AbstractPage {
+public class AndroidAppPage extends AbstractPage {
 
-    public YoutubePage(WebDriver driver) {
+    public AndroidAppPage(WebDriver driver) {
         super(driver);
         setPageAbsoluteURL("https://play.google.com/store/apps/details?id=com.gsmarena.android");
     }

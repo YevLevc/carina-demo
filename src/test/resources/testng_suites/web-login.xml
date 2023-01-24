@@ -11,8 +11,8 @@
 		<classes>
 			<class name="com.qaprosoft.carina.demo.WebLoginTest">
 			<methods>
-				<include name="testLoginModal"/>
-				<include name="testIncorrectLoginForms"/>
+				<include name="testIncorrectLogin"/>
+				<include name="testCorrectLogin"/>
 			</methods>
 			</class>
 		</classes>

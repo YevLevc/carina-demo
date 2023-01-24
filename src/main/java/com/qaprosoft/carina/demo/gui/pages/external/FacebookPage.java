@@ -18,11 +18,11 @@ package com.qaprosoft.carina.demo.gui.pages.external;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
-public class YoutubePage extends AbstractPage {
+public class FacebookPage extends AbstractPage {
 
-    public YoutubePage(WebDriver driver) {
+    public FacebookPage(WebDriver driver) {
         super(driver);
-        setPageAbsoluteURL("https://www.facebook.com/GSMArenacom-189627474421/");
+       setPageAbsoluteURL("https://www.facebook.com/people/GSMArenacom/100066846038410/"); //https://www.facebook.com/GSMArenacom-189627474421/
     }
     
 }

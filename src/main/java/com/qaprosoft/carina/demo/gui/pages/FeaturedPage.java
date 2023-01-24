@@ -18,11 +18,11 @@ package com.qaprosoft.carina.demo.gui.pages;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
-public class Featured extends AbstractPage {
+public class FeaturedPage extends AbstractPage {
 
-    public Featured(WebDriver driver) {
+    public FeaturedPage(WebDriver driver) {
         super(driver);
-        setPageURL("/featured.php3");
+        setPageURL("/news.php3?sTag=Featured");
     }
     
 }

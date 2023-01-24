@@ -7,10 +7,14 @@
 	<parameter name="jenkinsJobExecutionMode" value="continue"/>
 	<parameter name="jenkinsAutoScreenshot" value="true"/>
 
-	<test name="Main and footer menu web tests">
+	<test name="Login modal forms web tests">
 		<classes>
-			<class name="com.qaprosoft.carina.demo.WebMenuClickTest" />
+			<class name="com.qaprosoft.carina.demo.WebLoginTest">
+			<methods>
+				<include name="testLoginModal"/>
+				<include name="testIncorrectLoginForms"/>
+			</methods>
+			</class>
 		</classes>
 	</test>
-
 </suite>

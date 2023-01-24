@@ -18,11 +18,11 @@ package com.qaprosoft.carina.demo.gui.pages;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 
-public class Privacy extends AbstractPage {
+public class PrivacyPage extends AbstractPage {
 
-    public Privacy(WebDriver driver) {
+    public PrivacyPage(WebDriver driver) {
         super(driver);
-        setPageURL("/tools.php3");
+        setPageURL("/privacy-policy.php3");
     }
     
 }

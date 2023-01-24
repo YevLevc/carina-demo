@@ -26,6 +26,9 @@ public class LoggedinPage extends AbstractPage {
     @FindBy(className = "res-success")
     private ExtendedWebElement loginResult;
 
+    @FindBy(xpath = "//div[@id='body']//div[2]/p")
+    private ExtendedWebElement loginMessage;
+
     public LoggedinPage(WebDriver driver) {
         super(driver);
         setPageURL("/login.php3");
@@ -35,4 +38,7 @@ public class LoggedinPage extends AbstractPage {
         return loginResult;
     }
 
+    public ExtendedWebElement getLoginMessage() {
+        return loginMessage;
+    }
 }
